@@ -1,0 +1,70 @@
+* {
+    background-color: #536976;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+    font-size: 50px;
+}
+.list-container {
+    display: grid;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.btn, .dlt, .mark{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    outline: none;
+    border:  solid whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    line-height: 1;
+    color: black;
+    background-color: #ffff;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 0 0 0.5 black;
+    transform: scale(1.05);
+}
+.dlt:hover {
+    background-color: rgb(235, 88, 88);
+    color: white;
+    box-shadow: 0 0 0 0.5 black;
+    transform: scale(1.05); 
+}
+.mark:hover {
+    box-shadow: 0 0 0 0.5 black;
+    transform: scale(1.05); 
+}
+.strikethrough {
+    text-decoration: line-through;
+}
+.task-input, .task-box {
+    margin-left: 10px;
+    padding-top: 7px;
+    width: 300px;
+    height: 40px;
+    background-color: #ffff;
+    border: none;
+    outline: none;
+}
+.task-box{
+    margin-right: 20px;
+}
+.dlt {
+    margin-left: 10px;
+    color: #990f02;
+    font-size: 20px;
+}
+.mark{
+    font-size: 20px;
+}
